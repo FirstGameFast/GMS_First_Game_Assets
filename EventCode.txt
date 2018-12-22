@@ -101,6 +101,7 @@ else
 		{
 			speed = maxSpeed;
 		}
+		// make the ship move in the direction
 		motion_set(direction,speed);
 	}
 	// turn off thrust if not pressing the space bar
